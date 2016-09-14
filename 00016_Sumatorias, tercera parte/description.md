@@ -5,7 +5,7 @@ Pero lo que se repite, N veces, son las acumulaciones
 
 ```javascript
 function gananciaTotalN(unPeriodo) {
-  var sumatoria = 0; // esto siempre está
+  let sumatoria = 0; // esto siempre está
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
   sumatoria = sumatoria + unPeriodo[2]; //se repite N veces, de 0 a la última posición
@@ -19,8 +19,8 @@ Entonces,  tenemos que _repetir_ la operación de sumar varias veces... ¿te sue
 
 ```javascript
 function gananciaTotal(unPeriodo) {
-  var sumatoria = 0;
-  for (var i = 0; i < unPeriodo.length; i++) {
+  let sumatoria = 0;
+  for (let i = 0; i < unPeriodo.length; i++) {
     sumatoria = sumatoria + unPeriodo[i];
   }
   return sumatoria;

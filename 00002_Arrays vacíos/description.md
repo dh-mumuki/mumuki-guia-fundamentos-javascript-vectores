@@ -5,7 +5,7 @@ Y no sólo eso, sino que además pueden contener cualquier cantidad de elementos
 ¿Podremos entonces tener arrays vacíos, es decir, que no tengan elementos? ¡Por supuesto!
 
 ```javascript
-var unArrayVacio = []
+let unArrayVacio = []
 ```
 
 > Probá escribir en la consola un array vacío

@@ -1,7 +1,7 @@
 Los arrays son muy útiles para contener múltiples elementos. Pero hay algo más: también podemos agregarle elementos en cualquier momento, lo cual lo resolvemos mediante el método `push`. Por ejemplo:
 
 ```javascript
-var pertenencias = ["espada", "escudo", "antorcha"];
+let pertenencias = ["espada", "escudo", "antorcha"];
 //pertenencias.length acá vale 3;
 
 pertenencias.push("amuleto mágico");

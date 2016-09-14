@@ -3,7 +3,7 @@ Otro método útil de los arrays es `indexOf`, que nos dice en que posición est
 ```javascript
 ["a", "la", "grande", "le", "puse", "cuca"].indexOf("grande"); //devuelve 2
 
-var diasLaborales = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+let diasLaborales = ["lunes", "martes", "miercoles", "jueves", "viernes"]
 diasLaborales.indexOf("lunes"); //devuelve 0
 ```
 
