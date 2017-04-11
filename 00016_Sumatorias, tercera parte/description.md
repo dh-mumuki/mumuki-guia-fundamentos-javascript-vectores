@@ -1,4 +1,4 @@
-Si seguimos haciendo lo anterior, veremos que una sumatoria de N elementos siempre arranca igual (`var sumatoria = 0`), y termina igual (devolviendo la variable local  `sumatoria`).
+Si seguimos haciendo lo anterior, veremos que una sumatoria de N elementos siempre arranca igual (`let sumatoria = 0`), y termina igual (devolviendo la variable local  `sumatoria`).
 
 Pero lo que se repite, N veces, son las acumulaciones
 
