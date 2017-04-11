@@ -1,6 +1,6 @@
 function cantidadDeMesesConGanancia(unPeriodo) {
-  var cantidad = ????;
-  for (var i = 0; i < unPeriodo.length; i++) {
+  let cantidad = ????;
+  for (let i = 0; i < unPeriodo.length; i++) {
     ????
   }
   return cantidad;
