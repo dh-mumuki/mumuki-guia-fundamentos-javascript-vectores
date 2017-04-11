@@ -1,5 +1,5 @@
 function gananciaTotal4(unPeriodo) {
-  var sumatoria = 0;
+  let sumatoria = 0;
   
   //... escribí acá...
   
