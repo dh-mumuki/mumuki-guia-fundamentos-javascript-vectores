@@ -14,7 +14,7 @@ Vamos de a poquito, a ver si podemos generalizarla: si el array no tuviera eleme
 
 ```javascript
 function gananciaTotal0(unPeriodo) {
-  var sumatoria = 0;
+  let sumatoria = 0;
   return sumatoria;
 }
 ```
@@ -23,7 +23,7 @@ function gananciaTotal0(unPeriodo) {
 
 ```javascript
 function gananciaTotal1(unPeriodo) {
-  var sumatoria = 0;
+  let sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   return sumatoria;
 }
@@ -32,7 +32,7 @@ function gananciaTotal1(unPeriodo) {
 ¿Y si tuviera 2 elementos?
 
 ```javascript
-function gananciaTotal2unPeriodo) {
+function gananciaTotal2(unPeriodo) {
   var sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
