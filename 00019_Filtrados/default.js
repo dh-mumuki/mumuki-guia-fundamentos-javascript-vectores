@@ -1,6 +1,6 @@
 function saldosDeMesesConGanancia(unPeriodo) {
-  var saldos = ????;
-  for (var i = 0; i < unPeriodo.length; i++) {
+  let saldos = ????;
+  for (let i = 0; i < unPeriodo.length; i++) {
     ????
   }
   return saldos;
