@@ -33,7 +33,7 @@ function gananciaTotal1(unPeriodo) {
 
 ```javascript
 function gananciaTotal2(unPeriodo) {
-  var sumatoria = 0;
+  let sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
   return sumatoria;
@@ -44,7 +44,7 @@ function gananciaTotal2(unPeriodo) {
 
 ```javascript
 function gananciaTotal3(unPeriodo) {
-  var sumatoria = 0;
+  let sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
   sumatoria = sumatoria + unPeriodo[2];
