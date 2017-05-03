@@ -1,9 +1,10 @@
-Ana, contadora de una conocida empresa, guarda en un array por períodos, con las ganancias de cada mes. Por ejemplo, para el último semestre del año anterior, registró las siguientes:
+Ana, contadora de una conocida empresa, guarda las ganancias de cada mes en un array. Por ejemplo, para el último semestre del año pasado registró las siguientes:
 
 ```javascript
 //En Julio ganó $50, en Agosto perdió $12, etc
 let gananciasUltimoSemestre = [50, -12, 1000, 300, 200, 0];
 ```
+
 Y nos acaba de preguntar: _"¿puedo saber la ganancia de todo **un semestre**?"_
 
 _"Obvio"_, dijimos, y escribimos el siguiente código:
