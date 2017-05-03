@@ -1,4 +1,4 @@
-Entonces, tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. ¡Digamos hola (nuevamente) al `for...of`!
+Entonces tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. ¡Digamos hola (nuevamente) al `for...of`!
 
 ```javascript
 function gananciaTotal(unPeriodo) {
@@ -10,9 +10,9 @@ function gananciaTotal(unPeriodo) {
 }
 ```
 
-Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un array; en este caso, estaremos visitando cada `mes` de `unPeriodo`. 
+Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un array; en este caso, estaremos visitando cada `mes` de `unPeriodo`.  
 
-> ¿Aún no te convenciste? Probá las siguientes expresiones en la consola:
+> ¿Aún no te convenciste? Nuevamente, probá las siguientes expresiones en la consola:
 >
 > * `gananciaTotal([])`
 > * `gananciaTotal([100])`
