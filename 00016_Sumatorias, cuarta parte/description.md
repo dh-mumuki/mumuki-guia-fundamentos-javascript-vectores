@@ -1,33 +1,16 @@
-Si seguimos haciendo lo anterior, veremos que una sumatoria de N elementos siempre arranca igual (`let sumatoria = 0`), y termina igual (devolviendo la variable local  `sumatoria`).
-
-Pero lo que se repite, N veces, son las acumulaciones
-
-
-```javascript
-function gananciaTotalN(unPeriodo) {
-  let sumatoria = 0; // esto siempre está
-  sumatoria = sumatoria + unPeriodo[0];
-  sumatoria = sumatoria + unPeriodo[1];
-  sumatoria = sumatoria + unPeriodo[2]; //se repite N veces, de 0 a la última posición
-  //... etc
-  return sumatoria; //esto siempre está
-}
-```
-Entonces,  tenemos que _repetir_ la operación de sumar varias veces... ¿te suena a algo conocido?
-
-¡Por supuesto!: la estructura `for`, que nos permite hacer algo múltiples veces. Veamos cómo se vería entonces una función que calcula las ganancias de forma genérica:
+Entonces, tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. ¡Digamos hola (nuevamente) al `for...of`!
 
 ```javascript
 function gananciaTotal(unPeriodo) {
   let sumatoria = 0;
-  for (let i = 0; i < unPeriodo.length; i++) {
-    sumatoria = sumatoria + unPeriodo[i];
+  for (let mes of unPeriodo) {
+    sumatoria = sumatoria + mes;
   }
   return sumatoria;
 }
 ```
 
-Como ves, simplemente repetimos la idea de "sumar el enésimo elemento" tantas veces como elementos haya.
+Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un array; en este caso, estaremos visitando cada `mes` de `unPeriodo`. 
 
 > ¿Aún no te convenciste? Probá las siguientes expresiones en la consola:
 >

@@ -1,7 +1,7 @@
 function gananciaTotal(unPeriodo) {
-  var sumatoria = 0;
-  for (var i = 0; i < unPeriodo.length; i++) {
-    sumatoria = sumatoria + unPeriodo[i];
+  let sumatoria = 0;
+  for (let mes of unPeriodo) {
+    sumatoria = sumatoria + mes;
   }
   return sumatoria;
 }
