@@ -28,6 +28,6 @@ Y nos preguntó: _"¿Podría usar esta función que me dieron para calcular las 
 
 Y nos quedamos pensando :thought_balloon:.
 
-> ¿Tiene algún problema la función que escribimos anteriormente? ¿Funcionará con trimestres? ¿Y con cuatrimestres?
+> ¿Tiene algún problema la función `sumatoriaGananciasSemestre` que escribimos anteriormente? ¿Funcionará con trimestres? ¿Y con cuatrimestres?
 >
 > ¡Probala en la consola!
