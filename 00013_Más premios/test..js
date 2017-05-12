@@ -11,8 +11,8 @@ describe("", function() {
   it("medallaSegunPuesto(4)", function() {
     assert.deepEqual(medallaSegunPuesto(4), "nada")
   })
-  it("medallaSegunPuesto(5)", function() {
-    assert.deepEqual(medallaSegunPuesto(5), "nada")
+  it("medallaSegunPuesto(15)", function() {
+    assert.deepEqual(medallaSegunPuesto(15), "nada")
   })
   it("medallaSegunPuesto(0)", function() {
     assert.deepEqual(medallaSegunPuesto(0), "nada")
