@@ -1,6 +1,6 @@
 ¡Ahora te toca a vos!
 
-> Escribí la función `contiene`, que nos diga si un array contiene a un cierto elemento.
+> Escribí la función `contiene` que nos diga si un array contiene a un cierto elemento.
 >
 > ```javascript
 > ム contiene([1, 6, 7, 6], 7)
