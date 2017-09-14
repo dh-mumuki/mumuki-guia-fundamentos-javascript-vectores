@@ -5,7 +5,7 @@ let seriesFavoritasDeAna = ["Game of Thrones", "Breaking Bad", "House of Cards"]
 let seriesFavoritasDeHector = ["En Terapia", "Recordando el Show de Alejandro Molina"]
 ```
 
-Como ves, para representar a un conjunto de strings, colocamos todos esos strings que nos interesan, entre corchetes (`[` y `]`) separados por comas. ¿Fácil no?
+Como ves, para representar a un conjunto de strings, colocamos todos esos strings que nos interesan, entre corchetes (`[` y `]`) separados por comas. Fácil, ¿no?
 
 > Probá en la consola las siguientes consultas:
 >
