@@ -1,4 +1,4 @@
-Pero, pero, ¿podremos crear sólo arrays de strings? ¿Y si quiero, por ejemplo, representar los números de la lotería que salieron la semana pasada? ¿O las tiradas sucesivas de un dado? ¿O si salió cara o seca en tiradas sucesivas de una moneda? 
+Pero, pero, ¿sólo podemos crear arrays de strings? ¿Y si quiero, por ejemplo, representar los números de la lotería que salieron la semana pasada? ¿O las tiradas sucesivas de un dado? ¿O si salió cara o seca en tiradas sucesivas de una moneda? 
 
 ```javascript
 let numerosDeLoteria = [2,	11,	17,	32, 36, 39];
