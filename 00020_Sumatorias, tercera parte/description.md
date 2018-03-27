@@ -1,4 +1,4 @@
-_Ahora que ya sabemos qué es lo que querémos (`gananciaTotal`), razonemos cómo hacerlo...._
+_Ahora que ya sabemos qué es lo que queremos (`gananciaTotal`), razonemos cómo hacerlo...._
 
 Vamos de a poquito: si el array no tuviera elementos, ¿cuanto debería ser la sumatoria? ¡0!
 
