@@ -1,4 +1,4 @@
-Como te acabamos de _spoilear_, existe un operador para averiguar qué elemento hay en una posición dada:
+Al reves que con `indexOf` (que nos dice la posicion de un elemento particular) existe un operador para averiguar qué elemento hay en una posición dada:
 
 ```javascript
 ム mesesDelAnio[0]
