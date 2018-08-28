@@ -1,9 +1,10 @@
 ---
 tags: []
-layout: input_right
+layout: input_bottom
 editor: code
 type: playground
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+name: Y esto, es un array

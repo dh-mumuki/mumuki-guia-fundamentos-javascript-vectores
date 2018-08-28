@@ -3,7 +3,8 @@ tags: []
 layout: input_right
 editor: code
 type: playground
-extra_visible: true
+extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+name: "¿Y dónde está?"
