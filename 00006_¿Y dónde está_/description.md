@@ -1,10 +1,11 @@
 Otro método útil de los arrays es `indexOf`, que nos dice en que posición está un elemento dentro del array:
 
 ```javascript
-["a", "la", "grande", "le", "puse", "cuca"].indexOf("grande"); //devuelve 2
+var miArray = ["a", "la", "grande", "le", "puse", "cuca"]
+var posicion = miArray.indexOf("grande"); //devuelve 2
 
-let diasLaborales = ["lunes", "martes", "miercoles", "jueves", "viernes"]
-diasLaborales.indexOf("lunes"); //devuelve 0
+var diasLaborales = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+var unDia = diasLaborales.indexOf("lunes"); //devuelve 0
 ```
 
 Como ves, lo "raro" del método `indexOf` es que pareciera devolver siempre 1 menos de lo esperado. ¿Es que los creadores de JavaScript se equivocaron? :confused:
