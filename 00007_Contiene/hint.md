@@ -1,0 +1,1 @@
+Recorda que la funcion `indexOf` indica la posicion de un elemento en el array, y ademas indica un valor particular para los elementos que NO se encuentran dentro del array.
