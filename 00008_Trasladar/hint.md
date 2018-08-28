@@ -1,4 +1,4 @@
 ¿Tenés dudas sobre cómo quitar y agregar elementos? Repasemos:
 
-* `push`: método de arrays que toma un elemento y lo agrega al final
+* `push`: método de arrays que agrega el elemento parametro al final del array
 * `pop`: método de arrays que saca el último elemento
