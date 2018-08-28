@@ -1,4 +1,4 @@
-Los arrays son muy útiles para contener múltiples elementos. Pero hay algo más: también podemos agregarle elementos en cualquier momento, lo cual lo resolvemos mediante el método `push`. Por ejemplo:
+Los arrays son muy útiles para contener múltiples elementos y nos sirve mucho poder consultar cuantos elementos contienen. Pero hay algo más: también podemos agregarle elementos en cualquier momento, lo cual lo resolvemos mediante el método `push`. Nuevamente, para poder agregar un elemento a un array, debemos indicar el array seguido de un '.' y el metodo `push` con el elemento que queremos agregar como parametro. Por ejemplo:
 
 ```javascript
 let pertenencias = ["espada", "escudo", "antorcha"];
