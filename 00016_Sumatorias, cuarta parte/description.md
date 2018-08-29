@@ -1,6 +1,6 @@
-Entonces tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. Esto no solo no esta quedando prolijo, sino que es muy repetitivo!!!.
+Entonces tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. Esto no solo nos esta quedando desprolijo, sino que también es muy repetitivo!!!.
 
-¿No habia una estructura que vimos previamente que nos permitia repetir una acción una cantidad de veces?.
+¿No habia una estructura que vimos previamente que nos permitiía repetir una acción una cantidad de veces?.
 
 ¡Si el `for`!
 
