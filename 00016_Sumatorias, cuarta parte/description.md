@@ -1,4 +1,13 @@
-Entonces tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. ¡Digamos hola (nuevamente) al `for`!
+Entonces tenemos que repetir la operación de acumular varias veces, una por cada elemento del array. Esto no solo no esta quedando prolijo, sino que es muy repetitivo!!!.
+
+¿No habia una estructura que vimos previamente que nos permitia repetir una acción una cantidad de veces?.
+
+¡Si el `for`!
+
+¿Y puedo hacer que repita esa acción por todos los elementos?
+
+¡Si pidiendole el `length` al array!
+
 
 ```javascript
 function gananciaTotal(unPeriodo) {
