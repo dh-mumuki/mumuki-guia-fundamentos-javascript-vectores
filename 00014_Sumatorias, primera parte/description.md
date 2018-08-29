@@ -2,7 +2,7 @@ Ana, contadora de una conocida empresa, guarda las ganancias de cada mes en un a
 
 ```javascript
 //En Julio ganó $50, en Agosto perdió $12, etc
-let gananciasUltimoSemestre = [50, -12, 1000, 300, 200, 0];
+var gananciasUltimoSemestre = [50, -12, 1000, 300, 200, 0];
 ```
 
 Y nos acaba de preguntar: _"¿puedo saber la ganancia de todo **un semestre**?"_
@@ -21,7 +21,7 @@ _"Gracias"_, nos dijo Ana, y se fue calcular las ganancias usando la función qu
 
 ```javascript
 //En Enero la empresa ganó $80, en Febrero, $453, en Marzo $1000
-let gananciasPrimerTrimestre = [80, 453, 1000];
+var gananciasPrimerTrimestre = [80, 453, 1000];
 ```
 
 Y nos preguntó: _"¿Podría usar esta función que me dieron para calcular las ganancias del primer trimestre?"_
