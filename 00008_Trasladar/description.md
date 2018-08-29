@@ -5,8 +5,8 @@ Bueno, ya hablamos bastante; ¡es hora de la acción :movie_camera:!
 > Ejemplo: 
 >
 >```javascript
-> let unArray = [1, 2, 3];
-> let otroArray = [4, 5];
+> var unArray = [1, 2, 3];
+> var otroArray = [4, 5];
 >
 > trasladar(unArray, otroArray);
 >
