@@ -4,7 +4,7 @@ Vamos de a poquito: si el array no tuviera elementos, ¿cuanto debería ser la s
 
 ```javascript
 function gananciaTotal0(unPeriodo) {
-  let sumatoria = 0;
+  var sumatoria = 0;
   return sumatoria;
 }
 ```
@@ -13,7 +13,7 @@ function gananciaTotal0(unPeriodo) {
 
 ```javascript
 function gananciaTotal1(unPeriodo) {
-  let sumatoria = 0;
+  var sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   return sumatoria;
 }
@@ -23,7 +23,7 @@ function gananciaTotal1(unPeriodo) {
 
 ```javascript
 function gananciaTotal2(unPeriodo) {
-  let sumatoria = 0;
+  var sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
   return sumatoria;
@@ -34,7 +34,7 @@ function gananciaTotal2(unPeriodo) {
 
 ```javascript
 function gananciaTotal3(unPeriodo) {
-  let sumatoria = 0;
+  var sumatoria = 0;
   sumatoria = sumatoria + unPeriodo[0];
   sumatoria = sumatoria + unPeriodo[1];
   sumatoria = sumatoria + unPeriodo[2];

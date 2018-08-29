@@ -2,11 +2,11 @@
 
 ¿Y si el array tuviera N elementos?
 
-Si seguimos repitiendo este patrón, veremos que una sumatoria de un array siempre arranca igual (let sumatoria = 0), y termina igual (devolviendo la variable local sumatoria).
+Si seguimos repitiendo este patrón, veremos que una sumatoria de un array siempre arranca igual (var sumatoria = 0), y termina igual (devolviendo la variable local sumatoria).
 
 ```javascript
 function gananciaTotalN(unPeriodo) {
-  let sumatoria = 0; // esto siempre está
+  var sumatoria = 0; // esto siempre está
   //... etc
   return sumatoria; //esto siempre está
 }
