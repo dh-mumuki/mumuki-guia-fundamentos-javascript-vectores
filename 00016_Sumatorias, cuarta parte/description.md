@@ -8,6 +8,7 @@ Entonces tenemos que repetir la operación de acumular varias veces, una por cad
 
 ¡Si pidiendole el `length` al array!
 
+Ejemplo:
 
 ```javascript
 function gananciaTotal(unPeriodo) {
