@@ -1,9 +1,9 @@
 Pero, pero, ¿sólo podemos crear arrays de strings? ¿Y si quiero, por ejemplo, representar los números de la lotería que salieron la semana pasada? ¿O las tiradas sucesivas de un dado? ¿O si salió cara o seca en tiradas sucesivas de una moneda? 
 
 ```javascript
-let numerosDeLoteria = [2,	11,	17,	32, 36, 39];
-let tiradasDelDado = [1, 6, 6, 2, 2, 4];
-let salioCara = [false, false, true, false];
+var numerosDeLoteria = [2,	11,	17,	32, 36, 39];
+var tiradasDelDado = [1, 6, 6, 2, 2, 4];
+var salioCara = [false, false, true, false];
 ```
 
 Como ves, también podemos representar conjuntos de números o booleanos, de igual forma: escribiéndolos entre corchetes y separados por comas. Podemos tener arrays de números, de strings, de booleanos, etc. ¡Incluso podríamos tener arrays de arrays!
