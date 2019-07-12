@@ -1,0 +1,1 @@
+mesesDelAnio = ["enero","febrero"]
