@@ -6,7 +6,7 @@ describe("", function() {
     trasladar(unArray, otroArray);
 
     assert.deepEqual(unArray, [ 1, 2 ]);
-    assert.deepEqual(otroArray, [ 4, 5, 3 ]);
+    assert.deepEqual(otroArray, [ 4, 5, 3]);
   })
 
 })
