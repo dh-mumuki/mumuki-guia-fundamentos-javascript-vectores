@@ -2,7 +2,7 @@ Al reves que con `indexOf` (que nos dice la posicion de un elemento particular) 
 
 ```javascript
 ム mesesDelAnio[0]
-"enero"
+"Enero"
 ム ["ese", "perro", "tiene", "la", "cola", "peluda"][1]
 "perro"
 ```
